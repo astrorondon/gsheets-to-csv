@@ -5,7 +5,7 @@ inputs:
   sheets:
     description: 'List of sheets as a JSON string [{id, title, range}] '
     required: true
-    default: '[]'
+    default: '[{'1ulqohI6YLYFsz3wm8f5j6BS_JVelu2Ea8SXXa-wwkhQ','Responses','A:I'},{'1ulqohI6YLYFsz3wm8f5j6BS_JVelu2Ea8SXXa-wwkhQ','Polls','A:M'}]'
   tempdir:
     description: 'Target directory for CSV files'
     required: false
@@ -13,6 +13,7 @@ inputs:
   creds:
     description: 'Service account credentials (JSON)'
     required: true
+    # is this my GCP creds that I just put in secrets? Or dolt?
     default: ''
   output_json:
     description: 'Output is space separated (default) or json encoded array of file names'
