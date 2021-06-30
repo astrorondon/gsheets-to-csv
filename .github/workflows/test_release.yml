@@ -6,9 +6,12 @@ on:
       - master
   pull_request:
 env:
-  id: '1ZbkUf1tAzt_Lhh1G8ezDgyU1AdUnm26xzPYLtdtWsI8'
-  name: 'temp'
-  range: 'A1:I8'
+  # replace with polls spreadshet
+  id: '1ulqohI6YLYFsz3wm8f5j6BS_JVelu2Ea8SXXa-wwkhQ'
+  # sheet name
+  name: 'Polls'
+  # whatever
+  range: 'A1:M8'
 
 jobs:
   hello_world_job:
