@@ -3,9 +3,12 @@ name: Action Test
 on:
   push:
 env:
+  # replace with polls spreadshet
   id: '1ZbkUf1tAzt_Lhh1G8ezDgyU1AdUnm26xzPYLtdtWsI8'
-  name: 'temp'
-  range: 'A1:I8'
+  # sheet name
+  name: 'Polls'
+  # whatever
+  range: 'A1:M8'
 
 jobs:
   hello_world_job:
