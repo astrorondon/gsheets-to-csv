@@ -2,6 +2,7 @@ name: Action Test
 
 on:
   push:
+  workflow_dispatch:
 env:
   # replace with polls spreadshet
   id: '1ulqohI6YLYFsz3wm8f5j6BS_JVelu2Ea8SXXa-wwkhQ'
